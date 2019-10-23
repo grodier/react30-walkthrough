@@ -1,5 +1,5 @@
 function Drumkit() {
-    return (<>HelloWorld</>)
+  return <>HelloWorld</>;
 }
 
 export default Drumkit;

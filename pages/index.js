@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
+import Link from "next/link";
 
 const Home = () => (
   <div>
     <Head>
       <title>Home</title>
-      <link rel='icon' href='/favicon.ico' />
+      <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <li>
@@ -13,8 +13,7 @@ const Home = () => (
         <a>React Drum Kit</a>
       </Link>
     </li>
-
   </div>
-)
+);
 
-export default Home
+export default Home;

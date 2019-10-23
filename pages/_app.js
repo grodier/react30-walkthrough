@@ -1,11 +1,11 @@
-import React from 'react'
-import App from 'next/app'
-import '../styles/main.css'
+import React from "react";
+import App from "next/app";
+import "../styles/main.css";
 
 export default class MyApp extends App {
-  render () {
-    const { Component, pageProps } = this.props
+  render() {
+    const { Component, pageProps } = this.props;
 
-    return <Component {...pageProps} />
+    return <Component {...pageProps} />;
   }
 }
